@@ -145,3 +145,40 @@ h1 {
 }
 
 /* third-screen */
+
+.third-screen {
+  padding: 0;
+  margin: 0;
+  background-color: #f5f6f7;
+  overflow: hidden;
+}
+.third-screen-content {
+  display: inline-flex;
+  margin-left: 109px;
+  justify-content: center;
+  align-items: center;
+  height: 504px;
+}
+.third-screen-our-com {
+  width: 298px;
+  height: 175px;
+  text-align: center;
+}
+.third-screen-avatar {
+  border-radius: 100%;
+}
+.third-screen-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.third-screen-slider {
+  display: flex;
+  margin-left: 139px;
+}
+.slider-image {
+  padding-right: 30px;
+}
