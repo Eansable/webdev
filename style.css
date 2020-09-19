@@ -30,7 +30,8 @@ nav {
   margin-top: 0;
   padding-top: 25px;
   width: 582px;
-  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .navigation-item {
@@ -58,6 +59,7 @@ h1 {
   line-height: 75px;
   color: #ffffff;
   letter-spacing: 4.5px;
+  margin: 0;
   margin-left: 275px;
 }
 
@@ -72,3 +74,74 @@ h1 {
   margin-left: 388px;
   margin-top: 20px;
 }
+
+.button {
+  width: 184px;
+  height: 46px;
+  background-color: #00afdb;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #009cc2;
+}
+.first-screen-button {
+  margin-left: 547px;
+  margin-top: 30px;
+}
+
+.text-btn {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.first-screen-social {
+  padding: 0;
+  margin-top: 183px;
+  width: 170px;
+  margin-left: 555px;
+  display: flex;
+  justify-content: space-between;
+}
+/* second-screen */
+
+.second-screen {
+  height: 842px;
+  background-color: #fff;
+}
+.second-screen-content-all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 842px;
+}
+.second-screen-content {
+  width: 407px;
+}
+.second-screen-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #373737;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 367px;
+}
+.second-screen-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4e4e4e;
+}
+
+/* third-screen */
